@@ -22,6 +22,10 @@
 //   }
 // }
 
+function BoardMember(name, homeState, training){
+
+}
+
 BoardMember.prototype.veto = function(){
   return "No, I must disagree"
 }
@@ -29,5 +33,3 @@ BoardMember.prototype.veto = function(){
 BoardMember.prototype.appove = function(){
   return "You can do that!"
 }
-
-
