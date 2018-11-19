@@ -29,3 +29,5 @@ BoardMember.prototype.veto = function(){
 BoardMember.prototype.appove = function(){
   return "You can do that!"
 }
+
+
