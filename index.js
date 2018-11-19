@@ -23,5 +23,9 @@
 // }
 
 BoardMember.prototype.veto = function(){
-  return "No, I must disagree."
+  return "No, I must disagree"
+}
+
+BoardMember.prototype.appove = function(){
+  return "You can do that!"
 }
